@@ -1,29 +1,154 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    let myDart: Dart = null
     myDart.throwDart()
     myDart.angle = 0
 })
-let myDart: Dart = null
+function INTRO_AVATAR () {
+    AVATAR1 = sprites.create(img`
+        ...4444.......4444.......4444...
+        ...4444.......4444.......4444...
+        ...4444.......4444.......4444...
+        ...445544...44555544...445544...
+        ...445544...44555544...445544...
+        ...44555544455555555444555544...
+        ...44555544455555555444555544...
+        ...44555555555555555555555544...
+        ...44555555555555555555555544...
+        ...44555555555555555555555544...
+        ...44444444444444444444444444...
+        ...44444444444444444444444444...
+        ...ff5588999885588888889988ff...
+        ...ff5588999885588888889988ff...
+        fff88448899988558888888998888ff.
+        fff88448899988558888888998888ff.
+        fff88444444455888888888888888ff.
+        fff88444444455888888888888888ff.
+        fff88444444455888888888888888ff.
+        fff88444444455888888888888888ff.
+        fff4488ffffffffffffffffffff88ff.
+        fff4488ffffffffffffffffffff88ff.
+        fff4488ff33333ff8888888888888ff.
+        fff4488ff33333ff8888888888888ff.
+        4448888fffffffff8888888888888ff.
+        4448888fffffffff8888888888888ff.
+        4448888fffffffff8888888888888ff.
+        fffff8888888888888888888888ffff.
+        fffff8888888888888888888888ffff.
+        ...ffffffffffffffffffffffffff...
+        ...ffffffffffffffffffffffffff...
+        ................................
+        `, SpriteKind.Player)
+    AVATAR2 = sprites.create(img`
+        ....ffffffffffffffffffff........
+        ....ffffffffffffffffffff........
+        ....ffffffffffffffffffff........
+        ..fffff11111111111111ffffffff...
+        ..fffff11111111111111ffffffff...
+        ffff1111111111111111111111fffff.
+        ffff1111111111111111111111fffff.
+        ffff1111111111111111111111fffff.
+        ff111111111111111111111111111fff
+        ff111111111111111111111111111fff
+        ff11111111115555555551111111111f
+        ff11111111115555555551111111111f
+        ff11111111115555555551111111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff11111115555555555555551111111f
+        ff111111111155555555511111111fff
+        ff111111111155555555511111111fff
+        ff111111111111111111111111fffff.
+        ff111111111111111111111111fffff.
+        ff111111111111111111111111fffff.
+        ffff11111111111111111111fffff...
+        ffff11111111111111111111fffff...
+        ..fffffff111111111111fffff......
+        ..fffffff111111111111fffff......
+        ..fffffff111111111111fffff......
+        .......fffffffffffffffff........
+        .......fffffffffffffffff........
+        `, SpriteKind.Player)
+    AVATAR3 = sprites.create(img`
+        ................................
+        .............ffffff.............
+        .............ffffff.............
+        .............ffffff.............
+        ........fffff1111fffffff........
+        ........fffff1111fffffff........
+        ........fffff1111fffffff........
+        ......ffff11111111111fffffff....
+        ......ffff11111111111fffffff....
+        ......ffff11111111111fffffff....
+        ....ffff111111111111111111ffff..
+        ....ffff111111111111111111ffff..
+        ..ffff1111111111111111111111ffff
+        ..ffff1111111111111111111111ffff
+        ..ffff1111111111111111111111ffff
+        ffff1111ff11111111111111ff1111ff
+        ffff1111ff11111111111111ff1111ff
+        ffff1111ff11111111111111ff1111ff
+        ff1111111111111111111111111111ff
+        ff1111111111111111111111111111ff
+        ff1111111111111111111111111111ff
+        ff1111111111111111111111111111ff
+        ff1111111111111111111111111111ff
+        ffff111111111ffffffff111111111ff
+        ffff111111111ffffffff111111111ff
+        ffff111111111ffffffff111111111ff
+        ..ffffffff1111111111111111ffff..
+        ..ffffffff1111111111111111ffff..
+        ..ffffffff1111111111111111ffff..
+        ........ffffffffffffffffff......
+        ........ffffffffffffffffff......
+        ................................
+        `, SpriteKind.Player)
+    AVATAR4 = sprites.create(img`
+        ................................
+        ................................
+        .....fffffffffffffffffffff......
+        .....fffffffffffffffffffff......
+        .....fffffffffffffffffffff......
+        fffffff6666666666666666fffff....
+        fffffff6666666666666666fffff....
+        fffffff6666666666666666fffff....
+        fff6666666666666666666666666ff..
+        fff6666666666666666666666666ff..
+        fff6666666666666666666666666ff..
+        fff6666fffff666666666fffff66ff..
+        fff6666fffff666666666fffff66ff..
+        fff6666fff11666666666ff11166ffff
+        fff6666fff11666666666ff11166ffff
+        fff6666fff11666666666ff11166ffff
+        fff666666666664444466666666666ff
+        fff666666666664444466666666666ff
+        fff666666666664444466666666666ff
+        fff66ff6666666664444466666ff66ff
+        fff66ff6666666664444466666ff66ff
+        fff666666666666666644446666666ff
+        fff666666666666666644446666666ff
+        fff666666666666666644446666666ff
+        fffff66666ff6666fff6666fff66ffff
+        fffff66666ff6666fff6666fff66ffff
+        fffff66666ff6666fff6666fff66ffff
+        ...fffffffffffffffffffffffffff..
+        ...fffffffffffffffffffffffffff..
+        ................................
+        ................................
+        ................................
+        `, SpriteKind.Player)
+    AVATAR1.setPosition(18, 98)
+    AVATAR2.setPosition(61, 99)
+    AVATAR3.setPosition(96, 98)
+    AVATAR4.setPosition(135, 98)
+}
+let AVATAR4: Sprite = null
+let AVATAR3: Sprite = null
+let AVATAR2: Sprite = null
+let AVATAR1: Sprite = null
 game.showLongText("Hello and welcome to BubblePop", DialogLayout.Bottom)
+INTRO_AVATAR()
 game.showLongText("Pick an Avatar", DialogLayout.Top)
-myDart = darts.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . 4 4 . . . 4 4 . . . 4 4 . . 
-    . . 4 5 4 . 4 5 5 4 . 4 5 4 . . 
-    . . 4 5 5 4 5 5 5 5 4 5 5 4 . . 
-    . . 4 5 5 5 5 5 5 5 5 5 5 4 . . 
-    . . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
-    . . f 5 8 9 8 5 8 8 8 9 8 f . . 
-    . f 8 4 8 9 8 5 8 8 8 9 8 8 f . 
-    . f 8 4 4 4 5 8 8 8 8 8 8 8 f . 
-    . f 4 8 f f f f f f f f f 8 f . 
-    . f 4 8 f 3 3 f 8 8 8 8 8 8 f . 
-    . 4 8 8 f f f f 8 8 8 8 8 8 f . 
-    . f f 8 8 8 8 8 8 8 8 8 8 f f . 
-    . . f f f f f f f f f f f f . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Player, 10, 110)
-myDart.setTrace(true)
-myDart.controlWithArrowKeys(true)
-myDart.angle = 0
-myDart.angleRate += 10
