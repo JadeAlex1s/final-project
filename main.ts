@@ -1,7 +1,6 @@
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     myDart.throwDart()
     myDart.angle = 0
-    myDart.setTrace(true)
 })
 let myDart: Dart = null
 myDart = darts.create(img`
