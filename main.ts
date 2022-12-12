@@ -3,6 +3,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     myDart.angle = 0
 })
 let myDart: Dart = null
+game.showLongText("Hello and welcome to BubblePop", DialogLayout.Bottom)
+game.showLongText("Pick an Avatar", DialogLayout.Top)
 myDart = darts.create(img`
     . . . . . . . . . . . . . . . . 
     . . 4 4 . . . 4 4 . . . 4 4 . . 
