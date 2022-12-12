@@ -4,8 +4,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     myDart.angle = 0
 })
 function Intro2 () {
-    if ("1" == AVATAR1) {
-        AVATAR2 = sprites.create(img`
+    let _1 = 0
+    if (_1 == 1) {
+        AVATAR1 = sprites.create(img`
             ....ffffffffffffffffffff........
             ....ffffffffffffffffffff........
             ....ffffffffffffffffffff........
@@ -315,3 +316,4 @@ let AVATAR1: Sprite = null
 game.showLongText("Hello and welcome to BubblePop", DialogLayout.Bottom)
 INTRO_AVATAR()
 game.showLongText("Pick an Avatar", DialogLayout.Top)
+game.splash(game.askForNumber("Pick a number 1-4"))
