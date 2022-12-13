@@ -1,0 +1,1315 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="9Dk9]-;|1(g-0!qRbrQJ">Player</variable><variable type="KIND_SpriteKind" id=".ann1Hvi)J{C6=#q8L,K">Projectile</variable><variable type="KIND_SpriteKind" id="!j1a~6YD}UoTBt!?m;H(">Food</variable><variable type="KIND_SpriteKind" id="U$]ZR(Rgcue(v(In/)mw">Enemy</variable><variable type="KIND_SpriteKind" id="2gy-g.}3}!_BmhNDZ-Km">MODEL</variable><variable type="KIND_SpriteKind" id="kP8uO8.2q-l#(oR,SGn_">WALL</variable><variable id="nM^gt9Y)Mu0Ikv|kz^90">ENEMY 1</variable><variable id="UTA$I|cc(hVCT?bkD8bw">myDart</variable><variable id="!Cz47P4eekDRe+~lt_Pl">mySprite2</variable><variable id="eBgQ@xJ4Zv/!%2v~`.VH">mySprite3</variable><variable id="a;NuW*Q}o~/T*l~^[rK0">mySprite4</variable><variable id="~xWAF}]?}$XoMy@m*5~V">AVATAR1</variable><variable id="9YMpi}*r2xMlso]mh/J@">AVATAR2</variable><variable id="BF?K;TcDf8|m!,XkF_^l">AVATAR3</variable><variable id="cO_@5Bs-|d3U0xgtb^Hp">AVATAR4</variable><variable id="CZBbf4WR`|X|i%5nNjM5">1</variable><variable id="ZE3;OL7ozL}2OP*=%tNW">2</variable><variable id="}aa+ksyQDnLzM~.NYjo4">3</variable><variable id="tBs~Ks=N%Z2M{pcReE~2">4</variable><variable id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</variable><variable id="AQoGlW^rWPD7!+H={_Ht">myDart2</variable><variable id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</variable><variable id="2q[$Si8fzKLM@./z*k4:">mySprite5</variable><variable id="/nSOsP6ahTol;rF}#AkN">mySprite6</variable></variables><block type="function_definition" id="`f{SLxEU=,m0G]R}nn-C" x="-1180" y="-256"><mutation name="INTRO AVATAR" functionid="IYi#m;,+tT}2u?fOnsXu"></mutation><field name="function_name">INTRO AVATAR</field><statement name="STACK"><block type="gamesetbackgroundimage" id="pvKrq(t[N0G/Qw,PS_dd"><value name="img"><shadow type="background_image_picker" id="8Qir*p_tu+YK1Vxe,(-L"><field name="img">img`
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111fffffffffffffffffffffffffffffffffffffffffffffffffffffff11fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffff1ff1fffffffffffffffffffffffffffffffffff1111111111ffffffffffffffffffffffffff1ffffffffffffffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffff1fff1ffffffffffffffffffffffffffffffff111ffffffffff11ffffffffffffffffffffffff1ffffffffffffffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffff1fff1fffffffffffffffffffffffffffff111ffffffffffffff1ffffffffffffffffffffffff1fffffffffff1ffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffff1fffff1fffffffffffffffffffffffffff1fffffffffffffffff1ffffffffffffffffffffffff1fffffffffff1ffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffff1ffffffffffff1ffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffff1ffffffffffff1ffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffffffffffff11fffffffffffffffffffffffff1fffffffffff111fffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffffff11fffffffffffffffffffffffffff1111111111111fffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffffff11fffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffff111fffffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffff111fffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffff111ffff1fffffffffffffffffffffffffffffffffff1111fffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffff1fff11ff1fffffffffffffffffffffffffffffffffffffff111ffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1fffffffffffffffffffffffffff1ffff1ff1ffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffff1ffffffffffffffffffffffffffff1ffff1f1ffffffffffffffffffffffffffffffffffffffffffff1fffffffffffffffffffffffffffffffffff1fffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffff1fffff11fffffffffffffffffffffffffffffffffffffffffffff1ffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffffffffffffffffffffffffffffffffff1ffff1f11ffffffffffffffffffffffffffffffffffffffffff11ffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffffffffffffffffffffffffffffffffff11111fffffffffffffffffffffffffffffffffffffffffff111ffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111fffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1111111fffffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1fffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+111ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff111
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+`</field><data>{"commentRefs":[],"fieldData":{"img":"8Qir*p_tu+YK1Vxe,(-L"}}</data></shadow></value><next><block type="variables_set" id="FtMQ05iCzEuv-Ae.HAQc"><field name="VAR" id="~xWAF}]?}$XoMy@m*5~V">AVATAR1</field><value name="VALUE"><shadow type="math_number" id="IPLCnU2~uYCDKJqX9oRP"><field name="NUM">0</field></shadow><block type="spritescreatenoset" id="moh$s/H[:isNOvAok{;E"><value name="img"><shadow type="screen_image_picker" id="NH[v^/*efcm=Z,1buq#L"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"NH[v^/*efcm=Z,1buq#L"}}</data></shadow><block type="screen_image_picker" id="PY%KdG3i|gF9%/QBI0NH"><field name="img">img`
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...445544...44555544...445544...
+...445544...44555544...445544...
+...44555544455555555444555544...
+...44555544455555555444555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44444444444444444444444444...
+...44444444444444444444444444...
+...ff5588999885588888899988ff...
+...ff5588999885588888899988ff...
+fff88448899988558888889998888ff.
+fff88448899988558888889998888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ff33333ff8888888888888ff.
+fff4488ff33333ff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+fffff8888888888888888888888ffff.
+fffff8888888888888888888888ffff.
+...ffffffffffffffffffffffffff...
+...ffffffffffffffffffffffffff...
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"PY%KdG3i|gF9%/QBI0NH"}}</data></block></value><value name="kind"><shadow type="spritekind" id="PZ?{Fw-OwSE61NneRQ%y"><field name="MEMBER">MODEL</field></shadow></value></block></value><next><block type="variables_set" id="Xd3j(AsTh{KxBlmVnK(5"><field name="VAR" id="9YMpi}*r2xMlso]mh/J@">AVATAR2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="/S%p7+nn/.`1k)XRmouf"><value name="img"><shadow type="screen_image_picker" id="u+Xb`TlK3eDY`RC{sP4v"><field name="img">img`
+....ffffffffffffffffffff........
+....ffffffffffffffffffff........
+....ffffffffffffffffffff........
+..fffff11111111111111ffffffff...
+..fffff11111111111111ffffffff...
+ffff1111111111111111111111fffff.
+ffff1111111111111111111111fffff.
+ffff1111111111111111111111fffff.
+ff111111111111111111111111111fff
+ff111111111111111111111111111fff
+ff11111111115555555551111111111f
+ff11111111115555555551111111111f
+ff11111111115555555551111111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff111111111155555555511111111fff
+ff111111111155555555511111111fff
+ff111111111111111111111111fffff.
+ff111111111111111111111111fffff.
+ff111111111111111111111111fffff.
+ffff11111111111111111111fffff...
+ffff11111111111111111111fffff...
+..fffffff111111111111fffff......
+..fffffff111111111111fffff......
+..fffffff111111111111fffff......
+.......fffffffffffffffff........
+.......fffffffffffffffff........
+`</field><data>{"commentRefs":[],"fieldData":{"img":"u+Xb`TlK3eDY`RC{sP4v"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="q|W/Mc%n(Q@A,=FkBblI"><field name="MEMBER">MODEL</field></shadow></value></block></value><next><block type="variables_set" id="l66G4=;t}(k}^m)#oXKh"><field name="VAR" id="BF?K;TcDf8|m!,XkF_^l">AVATAR3</field><value name="VALUE"><shadow type="math_number" id="O426*9R@t=ymIID~]kz;"><field name="NUM">0</field></shadow><block type="spritescreate" id="1QlnTMV?,!/v5j1q}DWY"><value name="img"><shadow type="screen_image_picker" id="HXH%KmYS(+QZGzClfLpj"><field name="img">img`
+................................
+.............ffffff.............
+.............ffffff.............
+.............ffffff.............
+........fffff1111fffffff........
+........fffff1111fffffff........
+........fffff1111fffffff........
+......ffff11111111111fffffff....
+......ffff11111111111fffffff....
+......ffff11111111111fffffff....
+....ffff111111111111111111ffff..
+....ffff111111111111111111ffff..
+..ffff1111111111111111111111ffff
+..ffff1111111111111111111111ffff
+..ffff1111111111111111111111ffff
+ffff1111ff11111111111111ff1111ff
+ffff1111ff11111111111111ff1111ff
+ffff1111ff11111111111111ff1111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ffff111111111ffffffff111111111ff
+ffff111111111ffffffff111111111ff
+ffff111111111ffffffff111111111ff
+..ffffffff1111111111111111ffff..
+..ffffffff1111111111111111ffff..
+..ffffffff1111111111111111ffff..
+........ffffffffffffffffff......
+........ffffffffffffffffff......
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"HXH%KmYS(+QZGzClfLpj"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="`+EK74Uhw~9EsAv{mO~:"><field name="MEMBER">MODEL</field></shadow></value></block></value><next><block type="variables_set" id="Q!q1xI%9e%278[#xNBXE"><field name="VAR" id="cO_@5Bs-|d3U0xgtb^Hp">AVATAR4</field><value name="VALUE"><shadow type="math_number" id=".!2X-q|7Nr960wNvRa#z"><field name="NUM">0</field></shadow><block type="spritescreate" id="VALu3{92x}GZ*#r7{iw2"><value name="img"><shadow type="screen_image_picker" id=",]yfkBvIQ]vZU{j[PxQ."><field name="img">img`
+................................
+................................
+.....fffffffffffffffffffff......
+.....fffffffffffffffffffff......
+.....fffffffffffffffffffff......
+fffffff6666666666666666fffff....
+fffffff6666666666666666fffff....
+fffffff6666666666666666fffff....
+fff6666666666666666666666666ff..
+fff6666666666666666666666666ff..
+fff6666666666666666666666666ff..
+fff6666fffff666666666fffff66ff..
+fff6666fffff666666666fffff66ff..
+fff6666fff11666666666ff11166ffff
+fff6666fff11666666666ff11166ffff
+fff6666fff11666666666ff11166ffff
+fff666666666664444466666666666ff
+fff666666666664444466666666666ff
+fff666666666664444466666666666ff
+fff66ff6666666664444466666ff66ff
+fff66ff6666666664444466666ff66ff
+fff666666666666666644446666666ff
+fff666666666666666644446666666ff
+fff666666666666666644446666666ff
+fffff66666ff6666fff6666fff66ffff
+fffff66666ff6666fff6666fff66ffff
+fffff66666ff6666fff6666fff66ffff
+...fffffffffffffffffffffffffff..
+...fffffffffffffffffffffffffff..
+................................
+................................
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":",]yfkBvIQ]vZU{j[PxQ."}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="n#d;=l5|:~Iu6hU2q%Lf"><field name="MEMBER">MODEL</field></shadow></value></block></value><next><block type="spritesetpos" id="cU3}n3$AbU{-ld15MCoA"><value name="sprite"><block type="variables_get" id="WG__^}/(n;l|dnkxctD2"><field name="VAR" id="~xWAF}]?}$XoMy@m*5~V">AVATAR1</field></block></value><value name="x"><shadow type="positionPicker" id="nHWn4JX5,LjFYax%R+Pp"><field name="index">24</field></shadow></value><value name="y"><shadow type="positionPicker" id="!C;U|Qp[ovNsflhgY/7C"><field name="index">98</field></shadow></value><next><block type="spritesetpos" id="J`lK3f+Tg`o5Xd@uQ6:_"><value name="sprite"><block type="variables_get" id="g,hup*!7H?Ot!m$%GgzP"><field name="VAR" id="9YMpi}*r2xMlso]mh/J@">AVATAR2</field></block></value><value name="x"><shadow type="positionPicker" id="rJS6WQFO1-i{**X!*!5p"><field name="index">62</field></shadow></value><value name="y"><shadow type="positionPicker" id="EC]Gj%E2bMI{;!`i1::4"><field name="index">99</field></shadow></value><next><block type="spritesetpos" id="e.6t-Ul5=;mMjy-[aek^"><value name="sprite"><block type="variables_get" id="DJE^2geQ;3-H{|;VoZG?"><field name="VAR" id="BF?K;TcDf8|m!,XkF_^l">AVATAR3</field></block></value><value name="x"><shadow type="positionPicker" id="TWd]LJ%CcSKM42J,#!#A"><field name="index">96</field></shadow></value><value name="y"><shadow type="positionPicker" id="8zV?XYG$unq3alI_n_E?"><field name="index">98</field></shadow></value><next><block type="spritesetpos" id="z7``8p9Pr_j{1:yZN(4*"><value name="sprite"><block type="variables_get" id="iU%=h3:bwy2ieCmL;h%s"><field name="VAR" id="cO_@5Bs-|d3U0xgtb^Hp">AVATAR4</field></block></value><value name="x"><shadow type="positionPicker" id="Kx{9-5rR4G#H36QQxdOZ"><field name="index">135</field></shadow></value><value name="y"><shadow type="positionPicker" id="jq0-uLv%iedcsp/VI3}B"><field name="index">98</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="variables_set" id=")a2:G/D*2XG9:(;/9E-:" disabled="true" x="810" y="-226"><field name="VAR" id="eBgQ@xJ4Zv/!%2v~`.VH">mySprite3</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Jr;xTerzzq5(%w6^Ony[" disabled="true"><value name="img"><shadow type="screen_image_picker" id="/lXbdN[/cl$wi)lQ?!7d" disabled="true"><field name="img">img`
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . 5 . . . . . . . . . . 5 . . 
+. . . 5 5 5 5 5 5 5 5 5 5 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f . . . . . . . 
+. . f f f f 8 8 8 f f f . . . . 
+. f f 8 8 8 8 8 8 8 8 f f . . . 
+f f 8 8 8 8 8 8 8 8 8 8 f f . . 
+f 8 8 8 8 8 8 8 8 8 8 8 8 f . . 
+f 8 5 5 5 5 8 8 5 5 5 5 8 f f . 
+f 8 8 8 8 8 8 8 8 8 8 8 8 8 f . 
+f f 8 8 5 8 8 8 8 5 8 8 8 8 f . 
+. f 8 8 8 5 5 5 5 8 8 8 8 8 f . 
+. f f f f f f f f f f f f f f . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"/lXbdN[/cl$wi)lQ?!7d"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="L/xk-[ueoKHVq:bbdPq3" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="variables_set" id="4{X,:WG5Ml!MS]e54LsD" disabled="true" x="810" y="-106"><field name="VAR" id="a;NuW*Q}o~/T*l~^[rK0">mySprite4</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Ro[m*CA1V:@]^ou$2Xl1" disabled="true"><value name="img"><shadow type="screen_image_picker" id="BaJlxhNRB^t.$b=#H-._" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f f f f f f f f . . . . . 
+. . f f 1 1 1 1 1 1 f f f . . . 
+. f f 1 1 1 1 1 1 1 1 1 f f . . 
+. f 1 1 1 1 1 1 1 1 1 1 1 f f . 
+. f 1 1 1 1 5 5 5 5 1 1 1 1 f . 
+. f 1 1 1 5 5 5 5 5 5 1 1 1 f . 
+. f 1 1 1 5 5 5 5 5 5 1 1 1 f . 
+. f 1 1 1 5 5 5 5 5 5 1 1 1 f . 
+. f 1 1 1 1 5 5 5 5 1 1 1 f f . 
+. f 1 1 1 1 1 1 1 1 1 1 f f . . 
+. f f 1 1 1 1 1 1 1 1 f f . . . 
+. . f f f 1 1 1 1 1 f f . . . . 
+. . . . f f f f f f f . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"BaJlxhNRB^t.$b=#H-._"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="Xg;DEKn|cs6gIRt2U*0X" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="pxt-on-start" id="@)*v5$J9.*PIytkrfA{a" x="0" y="0"><statement name="HANDLER"><block type="game_show_long_text" id="`{o1Y#hIgd=+d[oOx50D"><field name="layout">DialogLayout.Bottom</field><value name="str"><shadow type="text" id="b/:z#x{HuQf^-Eu_DfC0"><field name="TEXT">Hello and welcome to BubblePop</field></shadow></value><next><block type="function_call" id="b$GmBel_2UXV4Zakv11("><mutation name="INTRO AVATAR" functionid="IYi#m;,+tT}2u?fOnsXu"></mutation><next><block type="game_show_long_text" id="vyjuV!}9(D!prs{|[Sr["><field name="layout">DialogLayout.Top</field><value name="str"><shadow type="text" id="G):81O^2vag.80dxq079"><field name="TEXT">Pick an Avatar</field></shadow></value><next><block type="variables_set" id="D)t3zR2SnGpMcKrr2(7V"><field name="VAR" id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</field><value name="VALUE"><shadow type="math_number" id="BV@~6vznZha_*`}*3}s)"><field name="NUM">0</field></shadow><block type="gameaskfornumber" id="iPauYu`zqO/^BAcg$]vh"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="message"><shadow type="text" id=";rDVH2yym3sJO/PIT)*s"><field name="TEXT">Pick a number 1-4</field></shadow></value><value name="answerLength"><shadow type="math_number_minmax" id="[1/{-#/TQg~u|b?#)`5["><mutation min="1" max="10" label="AnswerLength" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></value><next><block type="function_call" id="rQ%rO$V79B5~mkDd{%Zn"><mutation name="Intro2" functionid="Px(OYmJeuZ,:5x|tP1`v"></mutation><next><block type="sprites_destroy_all_sprites_of_kind" id="`7Q;VWm?Lse5yDt@mJi*"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.spray</field><value name="kind"><shadow type="spritekind" id="SlAxyWSItM#GgZ@A,U{n"><field name="MEMBER">MODEL</field></shadow></value><value name="duration"><shadow type="timePicker" id="0|KoOU-Xy^|mqI+Ay+V-"><field name="ms">500</field></shadow></value><next><block type="device_pause" id="2=_VPmpV4AuPv;Jq(b3z"><value name="pause"><shadow type="timePicker" id="`@ucHGj]17a9:4]:)L[W"><field name="ms">200</field></shadow></value><next><block type="gamesetbackgroundimage" id="X{P]h_*@yJJ%|1(BaN?t"><value name="img"><shadow type="background_image_picker" id="x^Fa32F.Z;l0]}.DsHO_"><field name="img">img`
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999aa99999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999
+9999999a999999999999999999aaaaaaaaaaaaaaaaaaaa999999999999999999999999999999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999
+9999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999
+999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999
+99999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999
+9999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999ffffffffffffffffff999999999a9999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999ffffffffffffffffff99999999a99999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999ffffffffffffffffff99999999999999999999999999999999999999999999999999999bbb
+999999999999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbb
+9999999999999999999bbbb9999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbb
+9999999999999999bbbbbbb9999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbb
+99999999999999bbbbbbbbbb99999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbb
+999999999999bbbbbbbbbbbbb999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbb
+99999999999bbbbbbbbbbbbbb999999999999999999999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbb
+999999999bbbbbbbbbbbbbbbbb9999999999999999999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbb
+999999999bbbbbbbbbbbbbbbbbb9999999bbbbbbbb99999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbb
+999bbbbbbbbbbbbbbbbbbbbbbbb99bbbbbbbbbbbbbbb9999999999999999aa999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbb
+999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbb
+999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbb
+9999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbb
+9999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbb
+9999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbb
+9999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbb
+99999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbb
+99999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbb
+99999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999a9999999999999999999bbbbbbbbbbbbbbbbbbbbbb
+99999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999999999999999999999999999999999999999a999999999999999999999999bbbbbbbbbbbbbbbbbb
+99999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999bbbbbbbb
+999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999
+999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999
+999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999
+99999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999
+99999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+99999999999999999999999999999999bbbbbbbbbbbbb9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbb999999999999999bbbbbbb999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbb9999999bbbbbbbbbbbbbb9999999999a999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbb9bbbbbbbbbbbbbbbbbbbb999999999a999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999a9999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999a99999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999a99999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999a999999999999999999999999999999999999999
+9999999a99999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9a9999999999999999999999999999999999999999
+999999a999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba99999999999999999999999999999999999999999
+99999a9999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999ffffffffffffffffff99999999999
+9999a99999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999ffffffffffffffffff99999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999ffffffffffffffffff99999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999a99999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999a999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbb99999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbb9999999999999999999999a99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbb9999999999999999999a99999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbbbbb999999999999999a999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbbbbbb99999999999999a999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbbbbbbb999999999999a999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbbbbbbbb9999999999a999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999a9999999999
+bbbbbbbbbbbbbbbbbbbbbbbbbb999999999a9999999999999999999999999999999999999999999a999999999999999999999999999999999999999999999999999999999999999999999a9999999999
+bbbbbbbbbbbbbbbbbbbbbbbbbbb9999999a9999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999999999999a9999999999
+bbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+bbbbbbbbbbbb9bbbbbbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9bbbbbbbbbbb99999bbbbbbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9bbb99bbbb99999999999bbbbbbb999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbb9999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999fffffffffffffffffff999999999999999999999999999999999999999999999999bbbbbbbbbb999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999fffffffffffffffffff999999999999999999999999999999999999999999999bbbbbbbbbbbbbbb9999999999999999999999
+99999999999999999999999999999999999999999999999999999999999fffffffffffffffffff999999999999999999999999999bbbbbb999999999bbbbbbbbbbbbbbbbbbbbb9999999999999999999
+9999999999aa9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbb99999bbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999
+9999999999a9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999
+999999999a999999999999aa9999999aa99999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999
+99999999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999
+9999999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999
+99999aa999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999999999999
+99999a999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999
+999999999999999999999999999999999999999999999aa9999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999
+99999999999999999999999999999999999999999999999aaaaaaaa99999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb99999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb999999999999999999999999
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999bbbbb99999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a99999999
+9999999999999999999999999999999999999999999999999999999999999999999999999aa999999999999999999999999999999999999999999999999999999999999999999999999999a999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9999999999999999999999999999999999aa99999999999999999999999999999999999999999999999999999999999999999999999999999a999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee99999999999999999999999999999999aa999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee99999999999999999999999999999aaa99999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9999999999999999999999999aaaa9999999999999999999999999999999999999999999999999999999999999999999999999999999999a99999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee999999999999999999999999999999999999999999999999a9999999999999999999999999999999999999999999999999999999999999a999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9999999999999999999999999999999999999999999999aa9999999999999999999999999999999999999999999999999999999999999a9999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee99999999999999999999999999999999999999999999aa999999999999999999999999999999999999999999999999999999999999999a9999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a99999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a99999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a999999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999a9999999999999999
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999aa99999999999999999
+`</field><data>{"commentRefs":[],"fieldData":{"img":"x^Fa32F.Z;l0]}.DsHO_"}}</data></shadow><block type="background_image_picker" id="XDP2o=[Hq3N/{WL48H6D"><field name="img">img`
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999cccccccccccccccccc99999999999999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999cccccccccccccccccc99999999999999999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999999999999999999cccccccccccccccccc99999999999999999999999999999999999999999999999999999111
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111
+9999999999999999999111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111
+9999999999999999111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111
+9999999999999911111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111
+9999999999991111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111
+9999999999911111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111
+9999999991111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111
+9999999991111111111111111119999999111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111
+9991111111111111111111111119911111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111
+9991111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111
+9991111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111
+9999111111111111111111111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111
+9999111111111111111111111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111
+9999111111111111111111111111111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111
+9999111111111111111111111111111111111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111
+9999911111111111111111111111111111111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111
+9999911111111111111111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111
+9999911111111111111111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111
+9999911111111111111111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111
+9999911111111111111111111111111111111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111
+9999999991111111111111111111111111111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999991111111111111111111111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999991111111111111111111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999911111111111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999911111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999911111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999991111119999999999999991111111999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111199999991111111111111199999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111119111111111111111111119999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111199999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111111199999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111111111111111111111119999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111111111111111111111111999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111111111111111111111111999999999999999999999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111111999999999999cccccccccccccccccc99999999999
+99999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111111999999999999cccccccccccccccccc99999999999
+99999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111119999999999999cccccccccccccccccc99999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111111119999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111119999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111119999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111199999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111119999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111111111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+1111111111119111111111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9111111111119999911111111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9111991111999999999991111111999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999111119999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999ccccccccccccccccccc9999999999999999999999999999999999999999999999991111111111999999999999999999999999
+99999999999999999999999999999999999999999999999999999999999ccccccccccccccccccc9999999999999999999999999999999999999999999991111111111111119999999999999999999999
+99999999999999999999999999999999999999999999999999999999999ccccccccccccccccccc9999999999999999999999999991111119999999991111111111111111111119999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111999991111111111111111111111111999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111111999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111111111999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999111111111111111111111111111111111111111111119999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111199999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111111999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111111111111111111111111111111111111111199999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999911111111111111111111111111111111111111999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999991111199999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+7777777777777777777777777777777777777999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+`</field><data>{"commentRefs":[],"fieldData":{"img":"XDP2o=[Hq3N/{WL48H6D"}}</data></block></value><next><block type="game_show_long_text" id="75JL$kGJuv`WV.F6)z7r"><field name="layout">DialogLayout.Top</field><value name="str"><shadow type="text" id="v=1nT.V|g#3l(^md]~Uf"><field name="TEXT">LEVEL 1</field></shadow></value><next><block type="variables_set" id="VGlA@sp+n=qem[cPsG:-"><field name="VAR" id="2q[$Si8fzKLM@./z*k4:">mySprite5</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="1~MHlqL|8/HBW)8`[|vt"><value name="img"><shadow type="screen_image_picker" id="Z/e?8#lj4yD``Zu8e!J."><field name="img">img`
+...9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................................................................................................................................................9
+...............................999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z/e?8#lj4yD``Zu8e!J."}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="312M!#H?!/6@3mp5g4=9"><field name="MEMBER">WALL</field></shadow></value></block></value><next><block type="variables_set" id="?)j8e0JC|5;[s8tqV4)E"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field><value name="VALUE"><shadow type="math_number" id="x4@Z[j+gRa`:::pl}|UO"><field name="NUM">0</field></shadow><block type="dartsCreate" id="j#,{t?D$sl$7NJrA]2qK"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="img"><shadow type="screen_image_picker" id="g2/hJ!1]N[T!MxjH.|=e"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+f f f f f f f f f f f f f f . . 
+f 8 8 8 8 8 8 8 8 f 4 4 4 f f . 
+f 8 8 8 8 8 8 8 8 f 4 1 f 4 f f 
+f 8 8 8 8 8 8 8 8 f f 4 4 4 4 f 
+f 8 8 8 8 8 8 8 8 f 4 f f f 4 f 
+f 8 8 8 8 8 8 8 8 f 4 4 4 4 f f 
+f f f f f f f f f f f f f f f . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"g2/hJ!1]N[T!MxjH.|=e"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=")Rf/l,]OC|CX#Zt.5BzR"><field name="MEMBER">Projectile</field></shadow></value><value name="x"><shadow type="math_number" id="Me0CiBwNoZVgr4z5Bb1:"><field name="NUM">10</field></shadow></value><value name="y"><shadow type="math_number" id="hk4@2w:3@YhhZO4pPx(b"><field name="NUM">110</field></shadow></value></block></value><next><block type="controlKeys" id="~oj2?GuX8H0KrQ/,cu2c"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="dart"><block type="variables_get" id="Cqva:MkmQJy*DUbtFT0X"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field></block></value><value name="on"><shadow type="toggleOnOff" id="CN1+JU4TlF{/(~e`%T,B"><field name="on">true</field></shadow></value><next><block type="setTrace" id="pczT$p{q+A}DHV$:rC9H"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="dart"><block type="variables_get" id="4G:`oloR7754Gfr5i;qe"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field></block></value><value name="on"><shadow type="toggleOnOff" id="F3aMq]nYae8F-6*XYtrp"><field name="on">true</field></shadow></value><next><block type="spritesetsetstayinscreen" id="-%qXNyi{9~*gRJ1qAi7P"><value name="sprite"><block type="variables_get" id="96Ej6#.mY`nx(uxN:pNg"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field></block></value><value name="on"><shadow type="toggleOnOff" id="ZI}J0x@NOBt^09Q|PCZm"><field name="on">true</field></shadow></value><next><block type="hudSetLife" id="-$V2OBUQaN(v,(yQ%/#0"><value name="value"><shadow type="math_number" id="`D2z}Bk0PC]}-2),#b}+"><field name="NUM">5</field></shadow></value><next><block type="device_while" id="e,i[Q[qaj1b:IW`2Vl8*"><value name="COND"><shadow type="logic_boolean" id="F~dX6}9%divD]K^2am8)"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="rHorN~;`$]#)J{i042Cd"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="H@{9(h7;*!ylz$k1q$3W"><field name="NUM">0</field></shadow><block type="hudLife" id="u-pLa@Gr7Fk_t-@!e]`s"></block></value><value name="B"><shadow type="math_number" id="~_AmH3PY%Qr5kju|rX%8"><field name="NUM">0</field></shadow></value></block></value><statement name="DO"><block type="playMelody" id="ye.|:9#3XIy!9Z}6a(k6"><value name="melody"><shadow type="melody_editor" id="d]E.?iw{xgkC,-6MY3%n"><field name="melody">"F G A E F G A F "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="zK49+N0D(nLOfsbw^aSc"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value><next><block type="playMelody" id="_0^`HF2S}X^[k42*eJdP"><value name="melody"><shadow type="melody_editor" id="YKo~fwK.mOK?^)T,|s(0"><field name="melody">"A G F A G A F A "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id=".WFKHJ=8^#zp2-.`j{bv"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="variables_set" id="uuS+a*G.wfndj@w#C.*P" disabled="true" x="810" y="34"><field name="VAR" id="nM^gt9Y)Mu0Ikv|kz^90">ENEMY 1</field><value name="VALUE"><shadow type="math_number" id="cOJ;]~slg-`8@Ugi)vs;" disabled="true"><field name="NUM">0</field></shadow><block type="spritescreate" id="mFv698bLrfD:i4]N/EWw" disabled="true"><value name="img"><shadow type="screen_image_picker" id="yIJ?ix6iOU{S,bv$t_DT" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f . . . . . . . 
+. . . . f f 1 1 f f f . . . . . 
+. . . f f 1 1 1 1 1 f f f . . . 
+. . f f 1 1 1 1 1 1 1 1 f f . . 
+. f f 1 1 1 1 1 1 1 1 1 1 f f . 
+f f 1 1 f 1 1 1 1 1 1 f 1 1 f . 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 f . 
+f 1 1 1 1 1 1 1 1 1 1 1 1 1 f . 
+f f 1 1 1 1 f f f f 1 1 1 1 f . 
+. f f f f 1 1 1 1 1 1 1 f f . . 
+. . . . f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"yIJ?ix6iOU{S,bv$t_DT"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="RhwE(VN9%@aq?8/-;;lj" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="variables_set" id="v^!HN.s9p$KsxV$mnuga" disabled="true" x="810" y="174"><field name="VAR" id="!Cz47P4eekDRe+~lt_Pl">mySprite2</field><value name="VALUE"><shadow type="math_number" id="FGe2f|8#t;u8?xke()o#" disabled="true"><field name="NUM">0</field></shadow><block type="spritescreate" id="%_SGA;rC_Q{NU1bh10ux" disabled="true"><value name="img"><shadow type="screen_image_picker" id="/9]EeuSCqd_d9zR1RpS5" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f f f f f f f f f . . . . 
+. f f f 6 6 6 6 6 6 6 f f . . . 
+. f 6 6 6 6 6 6 6 6 6 6 6 f . . 
+. f 6 6 f f 6 6 6 6 f f 6 f . . 
+. f 6 6 f 1 6 6 6 6 f 1 6 f f . 
+. f 6 6 6 6 6 4 4 6 6 6 6 6 f . 
+. f 6 f 6 6 6 6 4 4 6 6 f 6 f . 
+. f 6 6 6 6 6 6 6 4 4 6 6 6 f . 
+. f f 6 6 f 6 6 f 6 6 f 6 f f . 
+. . f f f f f f f f f f f f . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"/9]EeuSCqd_d9zR1RpS5"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="]tWiu]$q54(v~Zv2/v`K" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block><block type="keyonevent" id="y$IYu+^BuggB8T1x%eCh" x="530" y="310"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="throwDart" id="^)Wdj*|.+qw/;Y4CJXzq"><value name="dart"><block type="variables_get" id="9Rj^Z{oHHnFH{EP^Q.H*"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field></block></value></block></statement></block><block type="function_definition" id="3:~T=X]4%:pp(d$^Ziaj" x="-1180" y="400"><mutation name="Intro2" functionid="Px(OYmJeuZ,:5x|tP1`v"></mutation><field name="function_name">Intro2</field><statement name="STACK"><block type="controls_if" id="PY$8|Y}CWcVvI]m}*`]K"><mutation elseif="3"></mutation><value name="IF0"><shadow type="logic_boolean" id="]SHMHwf+jX6Z}=*?ZET0"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="4R`Y3AP,!93KdH[4o?.@"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="c5},gtz3;HH$rWr8;-q?"><field name="NUM">1</field></shadow><block type="variables_get" id="LP9gHmuZl=CUJQd{zR;@"><field name="VAR" id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</field></block></value><value name="B"><shadow type="math_number" id="{*6]*qW22m6*p8Nc8pNy"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="^Jl@f2DV|JbD*;j=/lhG"><field name="VAR" id="CZBbf4WR`|X|i%5nNjM5">1</field><value name="VALUE"><shadow type="math_number" id="_h.H1:PrDd6}#rOYLU|S"><field name="NUM">0</field></shadow><block type="spritescreatenoset" id="5YfrZ%+~35v;#Z?c^L=,"><value name="img"><shadow type="screen_image_picker" id="$dThir^vCc{E_7`e?}rV"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"$dThir^vCc{E_7`e?}rV"}}</data></shadow><block type="screen_image_picker" id="7n`jN/G!m/d!+!wfkkU]"><field name="img">img`
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...445544...44555544...445544...
+...445544...44555544...445544...
+...44555544455555555444555544...
+...44555544455555555444555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44444444444444444444444444...
+...44444444444444444444444444...
+...ff5588999885588888889988ff...
+...ff5588999885588888889988ff...
+fff88448899988558888888998888ff.
+fff88448899988558888888998888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ff33333ff8888888888888ff.
+fff4488ff33333ff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+fffff8888888888888888888888ffff.
+fffff8888888888888888888888ffff.
+...ffffffffffffffffffffffffff...
+...ffffffffffffffffffffffffff...
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"7n`jN/G!m/d!+!wfkkU]"}}</data></block></value><value name="kind"><shadow type="spritekind" id="l%Q8@l:ny)drH9U1#{yW"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="}:P;PfX(2BDXu*}5m%do"><value name="sprite"><block type="variables_get" id="tK*%TW9U~4Z@ABe7H+w/"><field name="VAR" id="CZBbf4WR`|X|i%5nNjM5">1</field></block></value><value name="x"><shadow type="positionPicker" id="A1x)KoVSULt{9AeR:oK~"><field name="index">14</field></shadow></value><value name="y"><shadow type="positionPicker" id="KFeYD[T?|,uP7;@[5G+A"><field name="index">103</field></shadow></value></block></next></block></statement><value name="IF1"><block type="logic_compare" id="ya{0Qh~83l!T4K_q!SS6"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="5bL)Hv1)YiK@KVkusGWs"><field name="VAR" id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</field></block></value><value name="B"><shadow type="math_number" id="O9PyyjYpTths#+WTm`:+"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="variables_set" id=".PG=kGpVEafV*2`,APVz"><field name="VAR" id="ZE3;OL7ozL}2OP*=%tNW">2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="^G,X~|2Eg~!tLb_Zm(hD"><value name="img"><shadow type="screen_image_picker" id="F@4R;_0`hQ{)b=C~Kz#O"><field name="img">img`
+....ffffffffffffffffffff........
+....ffffffffffffffffffff........
+....ffffffffffffffffffff........
+..fffff11111111111111ffffffff...
+..fffff11111111111111ffffffff...
+ffff1111111111111111111111fffff.
+ffff1111111111111111111111fffff.
+ffff1111111111111111111111fffff.
+ff111111111111111111111111111fff
+ff111111111111111111111111111fff
+ff11111111115555555551111111111f
+ff11111111115555555551111111111f
+ff11111111115555555551111111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff11111115555555555555551111111f
+ff111111111155555555511111111fff
+ff111111111155555555511111111fff
+ff111111111111111111111111fffff.
+ff111111111111111111111111fffff.
+ff111111111111111111111111fffff.
+ffff11111111111111111111fffff...
+ffff11111111111111111111fffff...
+..fffffff111111111111fffff......
+..fffffff111111111111fffff......
+..fffffff111111111111fffff......
+.......fffffffffffffffff........
+.......fffffffffffffffff........
+`</field><data>{"commentRefs":[],"fieldData":{"img":"F@4R;_0`hQ{)b=C~Kz#O"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="@19kj3fssJ84Umuj5/V)"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="g+%iK/$41zw8~/Ls?[=F"><value name="sprite"><block type="variables_get" id="+arYI#oFAErjF;NVQYAQ"><field name="VAR" id="ZE3;OL7ozL}2OP*=%tNW">2</field></block></value><value name="x"><shadow type="positionPicker" id=":xX,~p;bCD!u%;yZ%_Kr"><field name="index">14</field></shadow></value><value name="y"><shadow type="positionPicker" id="d[s6n;?g:;_IawcrD/a?"><field name="index">103</field></shadow></value></block></next></block></statement><value name="IF2"><block type="logic_compare" id="_P82t:/8mkPsmHy-xKrM"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="variables_get" id="U2*hHGdj-sCVnwPU4GV1"><field name="VAR" id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</field></block></value><value name="B"><shadow type="math_number" id="c_AXk/j_z~@)L;IY?`ka"><field name="NUM">3</field></shadow></value></block></value><statement name="DO2"><block type="variables_set" id="AN3Il`)j.he$@6A0P/##"><field name="VAR" id="}aa+ksyQDnLzM~.NYjo4">3</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreatenoset" id="NJe!n$@(+*m+x9BU9SzN"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"$dThir^vCc{E_7`e?}rV"}}</data></shadow><block type="screen_image_picker" id="8B9$u|D6dvT1J4n!6+v4"><field name="img">img`
+................................
+.............ffffff.............
+.............ffffff.............
+.............ffffff.............
+........fffff1111fffffff........
+........fffff1111fffffff........
+........fffff1111fffffff........
+......ffff11111111111fffffff....
+......ffff11111111111fffffff....
+......ffff11111111111fffffff....
+....ffff111111111111111111ffff..
+....ffff111111111111111111ffff..
+..ffff1111111111111111111111ffff
+..ffff1111111111111111111111ffff
+..ffff1111111111111111111111ffff
+ffff1111ff11111111111111ff1111ff
+ffff1111ff11111111111111ff1111ff
+ffff1111ff11111111111111ff1111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ff1111111111111111111111111111ff
+ffff111111111ffffffff111111111ff
+ffff111111111ffffffff111111111ff
+ffff111111111ffffffff111111111ff
+..ffffffff1111111111111111ffff..
+..ffffffff1111111111111111ffff..
+..ffffffff1111111111111111ffff..
+........ffffffffffffffffff......
+........ffffffffffffffffff......
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"8B9$u|D6dvT1J4n!6+v4"}}</data></block></value><value name="kind"><shadow type="spritekind" id="zn.(oCVdsrp9#WLiZ)U)"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="K)^bCc,0g3c0#A)TRZ)`"><value name="sprite"><block type="variables_get" id="p3z=bP|%.^*~O@6+9_ST"><field name="VAR" id="}aa+ksyQDnLzM~.NYjo4">3</field></block></value><value name="x"><shadow type="positionPicker" id="qZ_k^T*4H~pOGQw.mhgq"><field name="index">14</field></shadow></value><value name="y"><shadow type="positionPicker" id="V/O;gUsb@?b^uOig0YfQ"><field name="index">103</field></shadow></value></block></next></block></statement><value name="IF3"><block type="logic_compare" id="YhDnff1$9GALY[iYsb0g"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="QacAUY1(j/n/;9rIH]Nq"><field name="NUM">0</field></shadow><block type="variables_get" id="d9Xn0[q!4GN_~}Z=Xg8s"><field name="VAR" id="WP4m%#!WMaq^0`85l(BZ">RESPONSE1</field></block></value><value name="B"><shadow type="math_number" id="jT1hP7xwSe(;.m0*(uHe"><field name="NUM">4</field></shadow></value></block></value><statement name="DO3"><block type="variables_set" id="uABBB)wJK!{`2@oSaCjd"><field name="VAR" id="tBs~Ks=N%Z2M{pcReE~2">4</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Fi.btW*|`iL7fvu,Tpzk"><value name="img"><shadow type="screen_image_picker" id="@.=nIKM[V[LJK4r8CNZz"><field name="img">img`
+................................
+................................
+.....fffffffffffffffffffff......
+.....fffffffffffffffffffff......
+.....fffffffffffffffffffff......
+fffffff6666666666666666fffff....
+fffffff6666666666666666fffff....
+fffffff6666666666666666fffff....
+fff6666666666666666666666666ff..
+fff6666666666666666666666666ff..
+fff6666666666666666666666666ff..
+fff6666fffff666666666fffff66ff..
+fff6666fffff666666666fffff66ff..
+fff6666fff11666666666ff11166ffff
+fff6666fff11666666666ff11166ffff
+fff6666fff11666666666ff11166ffff
+fff666666666664444466666666666ff
+fff666666666664444466666666666ff
+fff666666666664444466666666666ff
+fff66ff6666666664444466666ff66ff
+fff66ff6666666664444466666ff66ff
+fff666666666666666644446666666ff
+fff666666666666666644446666666ff
+fff666666666666666644446666666ff
+fffff66666ff6666fff6666fff66ffff
+fffff66666ff6666fff6666fff66ffff
+fffff66666ff6666fff6666fff66ffff
+...fffffffffffffffffffffffffff..
+...fffffffffffffffffffffffffff..
+................................
+................................
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"@.=nIKM[V[LJK4r8CNZz"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="=lcD4Opu+Ce97.`iDwa)"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="c0IIwcwtf@nq/C!0#]n]"><value name="sprite"><block type="variables_get" id="+p;6#9l7Z=[|O/w;Y9a_"><field name="VAR" id="tBs~Ks=N%Z2M{pcReE~2">4</field></block></value><value name="x"><shadow type="positionPicker" id="Ao-Fy)0#Q[),gc3BeI[,"><field name="index">14</field></shadow></value><value name="y"><shadow type="positionPicker" id="eri@o/u0S%W-[]MPasac"><field name="index">103</field></shadow></value></block></next></block></statement></block></statement></block><block type="dartsCreate" id="gE{I#a_ViEsbhq-/Jn[Z" disabled="true" x="900" y="360"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="img"><shadow type="screen_image_picker" id="^ERQ9K|+-lDQjsjeTEs_" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . 4 4 . . . 4 4 . . . 4 4 . . 
+. . 4 5 4 . 4 5 5 4 . 4 5 4 . . 
+. . 4 5 5 4 5 5 5 5 4 5 5 4 . . 
+. . 4 5 5 5 5 5 5 5 5 5 5 4 . . 
+. . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. . f 5 8 9 8 5 8 8 8 9 8 f . . 
+. f 8 4 8 9 8 5 8 8 8 9 8 8 f . 
+. f 8 4 4 4 5 8 8 8 8 8 8 8 f . 
+. f 4 8 f f f f f f f f f 8 f . 
+. f 4 8 f 3 3 f 8 8 8 8 8 8 f . 
+. 4 8 8 f f f f 8 8 8 8 8 8 f . 
+. f f 8 8 8 8 8 8 8 8 8 8 f f . 
+. . f f f f f f f f f f f f . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"^ERQ9K|+-lDQjsjeTEs_"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ol.jd~tOMOZ78~zRG;dO" disabled="true"><field name="MEMBER">Player</field></shadow></value><value name="x"><shadow type="math_number" id="Kt_mKUnL--Q3k-RW:cS3" disabled="true"><field name="NUM">10</field></shadow></value><value name="y"><shadow type="math_number" id="h5ZqzvLb,mXD9WT4l|?;" disabled="true"><field name="NUM">110</field></shadow></value></block><block type="variables_set" id="=y;-vk-Z.}Fb4|W}jrT(" disabled="true" x="1020" y="600"><field name="VAR" id="UTA$I|cc(hVCT?bkD8bw">myDart</field><value name="VALUE"><shadow type="math_number" id=",.**Z,kvxq47qw/-[f:T"><field name="NUM">0</field></shadow><block type="dartsCreate" id="4D[ksa,lx0.(|(Zh}j_$" disabled="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="img"><shadow type="screen_image_picker" id="OG$$l*Ia,*O?Ul{Yy.Xq" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . 4 4 . . . 4 4 . . . 4 4 . . 
+. . 4 5 4 . 4 5 5 4 . 4 5 4 . . 
+. . 4 5 5 4 5 5 5 5 4 5 5 4 . . 
+. . 4 5 5 5 5 5 5 5 5 5 5 4 . . 
+. . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. . f 5 8 9 8 5 8 8 8 9 8 f . . 
+. f 8 4 8 9 8 5 8 8 8 9 8 8 f . 
+. f 8 4 4 4 5 8 8 8 8 8 8 8 f . 
+. f 4 8 f f f f f f f f f 8 f . 
+. f 4 8 f 3 3 f 8 8 8 8 8 8 f . 
+. 4 8 8 f f f f 8 8 8 8 8 8 f . 
+. f f 8 8 8 8 8 8 8 8 8 8 f f . 
+. . f f f f f f f f f f f f . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"OG$$l*Ia,*O?Ul{Yy.Xq"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id=":*_:S4Zk;?9l_co~sU,/" disabled="true"><field name="MEMBER">Player</field></shadow></value><value name="x"><shadow type="math_number" id="9F7X`7a-o)9RtmkI_(*a" disabled="true"><field name="NUM">10</field></shadow></value><value name="y"><shadow type="math_number" id="rOJo!Q-ZyYutAevicR.S" disabled="true"><field name="NUM">110</field></shadow></value></block></value></block><block type="controls_repeat_ext" id="eeb$+BRZyE[7jEuBS0ML" disabled="true" x="530" y="730"><value name="TIMES"><shadow type="math_whole_number" id="^w$h,Fgmy7w+-@:)k,L7" disabled="true"><field name="NUM">6</field></shadow></value></block><block type="gamesetbackgroundimage" id="J{QfP8^j^Yl=bi%W3ni@" disabled="true" x="-420" y="820"><value name="img"><shadow type="background_image_picker" id="Sd2N;sd(L|ff#qL?zU$W" disabled="true"><field name="img">img`
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111118888888111111188888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111188111111111118888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111118888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111888888888888
+8888888888888888888888888888888888111188888888888111188888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111888888888888
+8888888888888888888888118888811111111118881111111111188888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111888888888888
+8888888888888888888881111881111111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111118888888888888
+8888888888888888888811111111111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111118888888888888
+8888888888888888888811111111111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111118888888888888
+8888888888888888881111111111111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111118888888888888
+8888888888888888881111111111111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111188888888888888
+8888888888888888881111111111111111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111188888888888888
+8888888888888888888881111111111111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111188888888888888
+8888888888888888888881111111111111111111111111111111888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111188888888888888
+8888888888888888888888111111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111188888888888888
+8888888888888888888888811111111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888811111111111111111111111111888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888881111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888111111111188888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888111118888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888855888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888555558888558888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888855888555855858888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888885588885888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111118888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111118888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111188888888888888888888888888888888888ff8888ff8888888888888
+88888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111888888888888888888888888888888888ff88f88f88f888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111888888888888888888888888888888ff888f8f8888f88888888888
+888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111111188888888888888888888888888f8f8888f888888f8888888888
+888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111111111111118888888888888888888888ff88888f888888f8888888888
+888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111111111188888888888888888888888888888888888ff88888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111111111111111111888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111111111111888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111111111111188888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111111111111111111188888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111111111111888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888111811111111111111111111111111111111118888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111118888111118888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111118888888111188888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881118888888888881888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888555885588888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888885555558588888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888858888558858888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888588888558855888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888588888888885888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888188888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111188888888888888888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111118888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111118888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111118888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111111188888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111111118888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111111111888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111111118888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111111111111111118888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111111111111188888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888881111111111111111111111111188888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111111111111118888888
+8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111118888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888111111111111111188888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888811111111811111888888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+77777777777777777777777777777777777777777778888888888888888888888888888888888888888888888888888888888888888888888888888888888888fff8888ff88888888888888888888888
+77777777777777777777777777777777777777777778888888888888888888888888111111111118888888888888888888888888888888888888888888888ffffff88ff8f88888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888811111111111188888888888888888888888888888888888888888888ff8888f8f8888f8888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888888811111111111118888888888888888888888888888888888888888888f888888f888888f888888888888888888888
+77777777777777777777777777777777777777777778888888888888888888888888111111111111111111888888888888888888888888888888888888888888888f888888f888888888888888888888
+777777777777777777777777777777777777777777788888888888888888888881111111111111111111111888888888888888888888888888888888888888888888888888f888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888811111111111111111111111888888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888811111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888881111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888881111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888881111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888881111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888881111111111111111111111111118888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888111111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888
+7777777777777777777777777777777777777777777888888888888888888888881111111111111111111111188888888888888888888888888888888888888888888888888888888888888888888888
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Sd2N;sd(L|ff#qL?zU$W"}}</data></shadow></value></block><block type="spritesoverlap" id="n3S1txMxJ*t4T]I4bZuH" x="1300" y="860"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="GH,_9W}Pv).`?Rm0YIxn"><mutation typename="Sprite"></mutation><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="C]6wdvRbHe=87qJISNDn"><field name="MEMBER">Projectile</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="xl*dW@X!DW;~UYxn_(*I"><mutation typename="Sprite"></mutation><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="F|UWXNAcOV$%rX}ar?0U"><field name="MEMBER">WALL</field></shadow></value><statement name="HANDLER"><block type="spritedestroy" id="I.1Xp/_c?OmL=kuow6[-"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><field name="effect">effects.coolRadial</field><value name="sprite"><block type="variables_get" id="-SE7Bu^wv?^x;_oD!p4F"><field name="VAR" id="z3X;gq$zD/LzN,T)Je6;">THROW ROCK</field></block></value><value name="duration"><shadow type="timePicker" id="is2N}6:3*F3p-|3C(b)5"><field name="ms">500</field></shadow></value><next><block type="hudChangeLifeBy" id=":btGpqXDcL?V-hdJVP6/"><value name="value"><shadow type="math_number" id="^z7_](SL2Ry%iWh8$UbB"><field name="NUM">-1</field></shadow></value></block></next></block></statement></block><block type="screen_image_picker" id="KLeMSbb5x,D_U@a{n(OJ" disabled="true" x="-786" y="980"><field name="img">img`
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...4444.......4444.......4444...
+...445544...44555544...445544...
+...445544...44555544...445544...
+...44555544455555555444555544...
+...44555544455555555444555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44555555555555555555555544...
+...44444444444444444444444444...
+...44444444444444444444444444...
+...ff5588999885588888889988ff...
+...ff5588999885588888889988ff...
+fff88448899988558888888998888ff.
+fff88448899988558888888998888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff88444444455888888888888888ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ffffffffffffffffffff88ff.
+fff4488ff33333ff8888888888888ff.
+fff4488ff33333ff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+4448888fffffffff8888888888888ff.
+fffff8888888888888888888888ffff.
+fffff8888888888888888888888ffff.
+...ffffffffffffffffffffffffff...
+...ffffffffffffffffffffffffff...
+................................
+`</field><data>{"commentRefs":[],"fieldData":{"img":"KLeMSbb5x,D_U@a{n(OJ"}}</data></block><block type="gamesetbackgroundimage" id="2*ye%U(ySYdM2}L,A)%)" disabled="true" x="-420" y="1020"><value name="img"><shadow type="background_image_picker" id="fslTJ1%lzNXfU`9_:3m:" disabled="true"><field name="img">img`
+fffffcfcffffffddcffbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111111111111111dddddddddddbfcffffffffffccbcfffffff
+ffffffffffffffbdccfdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111dddddddddfbffffffcffffccfffffff
+fcdcfffffffffffbcffcdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111111111111111111111111111111dddddddddffffffbffffffcfffffff
+fffffffbfdffffffccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111111111dddddddffffdbffffffffcffffff
+ffffffffdffffffbbdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111111111ddddddccdffdffdcdcfffffffcf
+fffbfffcfffffcfcddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1dddd1111111111111111111111111111111111111111111dddddcfffffcddbdfffffffff
+ffffbfffffffffcdbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11d111111111111111111111111111111111111111111dddddbbffffffffbffbffffcf
+ffffffffffffffccddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111111111111111111111111111111111111111111111ddddcfffffffcffffffbcf
+fffffffffffffffcddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111d1111111111111111111111111cc111111111111111111ddddccffcffbdffffcccdf
+fffffffffffffcfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111111111111111111cccc1111111111111111111ddddcfffffffffffffff
+ffffffffffffffcdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1dddd11111111111111111111111111111cccc11111111111111111111dddbcffffffffffffff
+ffffffffffffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111ccccc11111111111111111111ddddddfffcddfffffff
+ffffffffffcfffcbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111111111111111111111111cccccc111111111111111111111dddbffbdddfffffff
+fffffffffffffccddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111111ccccccc111111111111111111111dddddcccfbcffffff
+ffffffffffffcddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111111ccccccc1111111111111111111111dddddfcfffffffff
+fffffffcfffbfcddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111111111111111111111111cccccccc111111111d11111d1111111ddddcfdffffffff
+ffffffffdfffbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1d1111111111111111111111111111111111ccccccccc11111111111111111111111dddbfcffffffff
+ffffffffffffddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111ccc111111111ccc1111111cccccccccc11111111111111111111111ddddcdcfffffff
+ffffffffffffcbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd11111111111111ccc1111c111cccc1111111ccccccccccc11111111111111111111111dddcfffbfffff
+ffffffffffffcbdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111111111ccc111ccc11cccc111111cccccccccccc11111111111111111111111dddbfbcdffccf
+ffffffffffffcbdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111111cccc11ccc11c1cc1111ccccccccccccccc11111111111111111111111ddbfdcffcfff
+fffffffffccfcddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd111111111111111c11c11ccc11c1cc1111cccccccccccccccc1111111111111111111111ddbbbfffddff
+fffffffffdcfbdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111111111111ccccccccccccccc1111cccccccccccccccc11111111111111111111111ddcbffffdfc
+fffffffffbfccdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd1111111111111111ccccccccccccccc1111cccccccccccccccc111111111111111111111111ddccffffff
+ffffffffbdfcdddddddddddddddbbdddddddddddddddddddddddddddddddddddddddddddddd1111111111111111ccccccccccccccc111111cccccccccccc111111111111111111111111111bdbfffcff
+fffffffffcfbddddddddddddddddbdddddddddddddddddddddddddddddddddddddddddddddd1111111111111111ccccccccccccccc111111cc1dcc1cc1cc1111111111111111111111111dddddcfffff
+fffffffffcfcddddddddddddddddbbdddddddddddddddddddddddddddddddddddddddddddddd1111111111111111ccccccccccccc1111111cc1ccc1cc1cc11111111111111111111111111ddddbfffff
+fffffffffffcbddddddddddddddddbdddddddddddddddddddddddddddddddddddddddddddd1d11111111111111111ccccccccccc11111111cccccccccccc1111111111111111111111111dddddbcffff
+ffffffffffffbbdddddddddddddddbdddddddddddddddddddddddddddddddddddddddddddddd11111111111111111cccccccccc111111111cccccccccccc11111111111111111111111111dddddccfff
+fcffffffffffbddddddddddddddddbdddddddddddddddddddddddddddddddddddddddddddddd111111111111111111ccccccccc111111111cccccccccccc11111111111111111111111111dddddbcdff
+ffffffffffffcbdddddddbbddddddbddddddddddddddddddddddddddddddddddddddddddddd1111111111111111111ccccccccc1111111111cccccccccc11111111111111111111111111dddddddccff
+fffffffffffccbdddddddbbdddddbbddbbdddddddddddddddddddddddddddddddddddddddddd1111bb111111111111ccccccccc11111111b11cccccccc1111111111111111111111111111ddddddbcff
+fffffffffffffddddddddbddddddbddbbddddddddddddddddddddddddddddddddddddddddddd1111b1111111111111ccccccccc111cccccccbccccccc111111111111111111111111111111dddddbcff
+fffffffffffcbbbddddbdbdddddbbdbbbddddddddddddddddddddddddddddddddddddddddddd1111b1111111111111ccccccccc1ccccccccccccccccc111cccc1111ccc1bccc1111111111ddddddbbcf
+fffffffffffffcbbbddbbbddddbbddbdddddddddddddddddddbdddddddddddddddddddddddddd111b1111111111111cccccccccccbbbccbbccccccccc111ccccc11cccc1bcccc1111111111dddddddcf
+ffffffffffffffbbbbddbbddddbddbdddddddddddddddddddbbddddddddddddddddddddddddd111111111111111111cccccccccccbbcccbbccccccccc111ccccc11ccccbccccc1111111111dddddddcc
+fffffffffffffccbbbbddbddddbbbbdddddddddddddddddddbbdddddddddddddddddddddddddb111b1111111111111ccccccccccccccccccccccccccc111ccc1ccccccccc1ccc1111111111ddddddddd
+fffffffffffffccbbbbbbbddddbbbdddddddddddddddddbdddbddddddddddddddddddddd1dddb111b1111111111111cccccccccccccc1111ccccccccc111ccc1cccc11ccc11cc11111111111dddddddd
+fffffffffffffccbbbbbbbbdddbbbdddddddddddddddddbbddbddddddddddddddddddddd1dddb111b1111111111111cccccccccccc1111111cccccccc11ccccccccccbccccccc11111111111dddddddd
+ffffffffffffffccbbbbbbbdddbbdddddddddddddddddddbddbddddddbbbbdddddddddddddd1bbd1b1111111111111ccccccccccc1111b1111ccccccc111ccccccccccccccccc11111111111dddddddd
+ffffffffffffffbcbbbbbbbbddbbddddddddddddddddddddbdbddddbbbddbdddddddddddddddbbd1b1111111b11111ccccccccccc111bb1111ccccccc1bb1cccccccccccccccc111111111dddddddddd
+fffffffffffffffccbbbbbbbbdbbdddddddddddddddddddddbbddddbbdddbddddddddddddddd1bd1b11111111111bbccccccccccc111111111cccccccccccccccccccccccccc1111111111dddddddddd
+ffffffffffffffcbbcbbbbbbbbbbbddddddddbbdddddddddddbbddbbbdddbbdddddddddd1ddd1bd1b111111111bbbbccccccccccc1b1111111cccccccbbccbccccccccccccc11111111111dddddddddd
+fffffffffffffffcbccbbbbbbbbbbdddddddddbddddddddddddbbdbbdddddbbddddddddd1dddddbbb1111111111b1cccccccccccc1b1111111cccccccbbcbbcccccccccccc11111111111d1ddddddddd
+ffffffffffffffffcbbbbbbbbbbbbdddddddddbddddddddddddbbbbbdddddbbdddddddddddddddbbb111111111111cccccccccccc1bb111111ccccccccbccbcccccccccccc11111111b11d1ddddddddd
+fffffffffffffffffccbbbbbbbbbbbddbdddddbbddddddddddddbbbbdddddddddddddddddddddddbbb11111111111ccccccccccccbb1111111cccccccccccccccccccccccc11111111b11d1ddddddddd
+ffffffffffffffffccbbbbbbbbbbbbddbdddddbbddddddddddddbbbbdddddddddddddddddddddd1bbb11111111111ccccccccccccbb1111d1dccccccc1d111cccccccccccc111bb1dbbddddddddddddd
+ffffffffffffffffffcbbbbbbbbbbbbdbdddddbbddddddddddddbbbbddddddddddddddddddbddd11bb1bb11111111cccccccccccccbdddd1cccccccccccbddcccccccccccc1111b1dbbddddddddddddd
+ffffffffffffffffffcbbbbbbbbbbbbdbdddddbbddddddddddddbbbbdddddddddddddddddbbdddddbbbbb111111d1bcccccccccccccccccbccccccccccccccccccccccccccbb11b1dbdddddddddddddd
+ffffffffffffffffffcbbbbbbbbbbbbbbdddddbbddddddddddddbbbbdddddddddddddddddbbdddd11bbb1111b1111dccccccccccccccccccccccccccccccccccccccccccccbb11b1bbdddddddddddddd
+fffffffffffffffffcbbbbbbbbbbbbbbbdddddbddddddddddddbbbbbddddddddddddddddbbddddd11bbb1111d1111ccccccccccccccccccccccccccccccccccccccccccccc1bd1b1bddddddddddddddd
+ffffffffffffffffffcbbbbbbbbbbbbbbbdddbbddddddddddddbbbbbddddddddddddddddbddddddddbbb1111d1111bccccccccccccccccccccccccccccccccccccccccccccdbb1bbdddddddddddddddd
+ffcffffffffffffffcfcbbbbbbbbbbbbbbbddbbddddddddddddbbbbbddddddddddddbbdbbddddddddbbb1111d11b1bccccccccccccccccccccccccccccccccccccccccccccdbb1bbdddddddddddddddd
+fffffffffffffffffffccbbbbbbbbbbbbbbbbbbbdddddddddddbbbbbddddbbdddddddbdbbddddddddbbb111111bbbccccccccccccccccccccccccccccccccccccccccccccc11b1bbdddddddddddddddd
+ffffffffffffffffffcfcbbbbbbbbbbbbbbbbbbbbdbddddddddbbbbbddddbbdddddddbbbddddddd1bbbb111d111bbbcccccccccccccccccccccccccccccccccccccccccccc1dbddbdddddddddddddddd
+ffcffffffffffffffffffbbbbbbbbbbbbbbbbbbbbdbdddbddddbbbbbdddddbdddddddbbbddddddddbbbb1111111bb1cccccccccccccccccccccccccccccccccccccccccccc111bbbdddddddddddddddd
+fffffffffffffffffffffcbbbbbbbbbbbbdbbbbbbbbdddbbdddbbbbbdddddbbddddddbbdddddddddbbbb11111bbb1dcccccccccccccccccccccccccccccccccccccccccccc111dbbdddddddddddddddd
+fffffffffffffcfffffffcbbbbbbbbdddddddddbddddddbbdddbbbbbdddddbbddddddbbdddd1ddddbbbb11111bb111ccccccccccccccccccccccccccccccccccccccccccccd1ddbbdddddddddddddddd
+fffffffffffffffffffffdddddddddddddddddddddddbdbddddbbbbbdddddbbdddddbbbdddddddddbbbbb1111bb111ccccccccccccccccccccccccccccccccccccccccccccddddbbbbdddddbbddddddd
+fffffffffffffffffffffcbbddddddddddbdddddddddddddddbbbbbbdddddbbdddddbbbdddddddddbbbbb1111bb11bcccccbccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbddddddddbd
+ffffffffffffffffffffffcbdddddddddddddddddddddddddddbbbbbbddddbbdddddbbbddddddddbbbbbb11111b11dccccccccccccccbcccccccccccccccccccccccccccccbbbbbbbbbbbbbbddbddbdd
+fffffffffffffffffffffdcbbbddddddddddddddddddddddddddbbbbbbdddbbddddbbbbdddddddbbbbbbbb111bb111ccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbd
+fffffffffffffffffffffddfccbddddbdddddddddddddddddddbbddbbbbddbbddddbbbbdddddbbbbbbbbbbbb1bb1bbccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbb
+ffffffffffffffffffffffffffcbdddddddddddddbdddddddddddddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbbd
+ffffffffffffffffffffffffffccdddddddddddddddddddddddddddbddddbdbbbdbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbb
+fffffffffffffffffffffffdbffbbbdddddbddddddddddddddddddddddbddddddddddbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbddbbbbbbbb
+ffffffffffffffffffffffdfbcfddbdddddddddddddddddddddddddddbddddddddbddddbbbbbbbbbbbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbdddddbbbbbbb
+fffffffffffffffffffffcbffdffdbdddddddddddddddddddddddddddddddddddddddddddddddddbbbbbbbbbbbbcccccccccccccccccccccccccccccccccccccccccccccccbbbbddddddddddddddbbbb
+fffffffcfffffffffffffffffdcffcddddddddddddddddddddddddddddddddddddddbddddbdddddddbdbbdbbbcccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbddddddddddddbbb
+fffffffffffffffffffffffdcfdffdcbdddddddddddddddddddddddddddddddddddddddddddddddddbddbbbbbcccbcccccccccccccccccccccccccccccccccccccccccccccbbbbbbbdddddddddddddbb
+ffffffffffffffffffffffffcffffcfbddddddddddbddddddddddddddddddddddddddddddddddbddddddddddddbcbbbcbccccccccccccccccccccccccccccccccccccccccccbbbbdbddddddddddddddb
+ffbcffffffffcfffffbffffffffffdbcddddddddddddbdddddddddddddddddddbdddddddddddbbddddbbddddbdcddddcbbcccccccccccccccccccccccccccccccccccccccccbbbdbdddddddddddddddd
+fddfffcffffffffffffffffffffffffcddddddddddddddddddddddddddddddddddddddbddddddddddddddddddddddddcbdbbcbcccbccccccccccccccccccccccccccccccccccbbbbdbdbddddddddbdbd
+ffcfffdcffffffffffffffffffffffffbddddddddddddddddddddddddddddddddddddddddddddddddddbbbdddddddddddbdbbbbccbcbbcccccccccccccccccccccccccccccccbbbbbddddddddbdddddd
+ffffdfffffffffffffffffffffffffffcddddddddddddddddddddddddddddddddddddddddddddddddddbddddddddddddbdddddddbbbbbbccccccccccccccccccccccccccccccbbbbbbdbdddddddddddd
+fffffffffffffffffffffffffffffffccdddddddddddddddddddddddddddddddbddddddddddbdddbddddddddddddddddcdddcbdbddddcbbbcccccccccccccccccccccccccccccbbbbbbddddddddddddd
+ffffffffffffffcffffffffffffffffcfcddddddddddddddddddddddddddddddddddbbbdddddddddddddddddddddddddbddddbdbddddddddbbcccccccccccccccccccccccccccbbbbbbbdddddddddddd
+ffffffcfcffffffffffffffffcffffffffbdddddddddddddddddddddddbdbddddddddddddddddddddddddddddbdddddddddddddddddddbbddddbccccccccccccccccccccccccccbbbbbbddbddddddbdb
+ffffffcfffffffffffffffffffffffffffcddddddddddddddddddddddddddddddddddddddddddbcdbddddddddbdddddddddddddddddddddddbdbdcccccccccccccccccccccccccccbbbbdddddddbddbd
+ffffcffffffffffffffffffffffffffbfffdddddddddddddddddddddddddddddddddddddbddddddddddddddddddddbdcddddddddddddbdddcbbcddbcccccccccccccccccccccbcbddddddddddddddddd
+fffffffffffffffffffffffffffffffdfffcdddddddddddddddddddddddddddddddbddddddddddddbcddddddddddddddddddddddddddcbdbddddddbcbcbccccccccccccccccbbddddddcdddddddddddd
+fffffffffffffffffffffffffffffffcffffbddddddddddddddbbdddddddddddddddddddddddddddddddddddddddddddddddddddddddbdbddddbddccbbbbbcccbcccccccbbcddbdddddcbddddddddddd
+fffcccffffffffffffffffcfffffffffffddbddddddddddddddccddddddddddddddddddddddddddcdddcbddddddddddddddddbddddddddddddddddbddddbdddbbbcbbbcbbbcbdddddddddcdddddddddb
+cfffccfffffffffffffffffffffffffffffdcdddddddddddddddddddddddddddbddddddddbddddddddddddddddbddddddddddddcdddddbdddddddbddddddddddbdbddbcbdbbdddbddddbdddddddddddd
+ffffffffffffffffffffffffffffffffffffcddddddcddddddddddddddddddddddddddddddddddddddddcddddddddcddddddddbdddddccddddddddddddbdddbbbdbdddddddcdddddddddddddddddcddd
+ffffffffffffffffffffcfffffffffffffffcddddddddddddddddddbddddddddddddddddddddddddddddbcddddddbcdbbbcbdddddddddddbddbdcddddddbbddddbcdddddddcdddddddddddddddddbddd
+fffffffffcffffffffffcffffffffcdbffffcdddddddddddddddddddddddddbddddddddddddddddcbddbddddbbdcbbbbcbbbbbbdddddddddddddbddddbbdbcbdbddbdddddddddddddddddddddddddddb
+fffffffffffffffffffffffffffffbfcffffcdddbbbbddddddddddddddddddddddddddbbbbdbbbcbccbbbbbbbbcbcbccccbbcccbbbbdbbdcddddbdddddddcbdddddbbddddddddddddddddddddddddddd
+fffffffffffffffffffbbfffffffffffddfccbddbbbbbbdddddddddddddddddddbbdbccbbcbccbccccccccccccccccccccccccccccbbbbbddddbbdddddddbbddddddbbcdddddbddddddddddddddddddd
+ffffffffffffffffffffffffffffffcfffffccddbbccccbbbbdddddddddddddbbbcccccccccccccbccccccccccccccccccccccccccbcbbbcbbcccbccbddbbdddddbddcddbddddddddddddbdddddddbbb
+fffffffffffffffffffffffffffffffdfffffbdddbbbccbcccbbbdbdddbdbccccbcccccccccccccccccccccccccccccccccccccccccccccccccccbcccccbcbbbdddddbddddddddddddddddddddddbccc
+fffffffffffffffffffffcfffffffffffffffdddddbcccbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbccccccbbcbbccbbbccddddcdddddddddddbddcccc
+fffffffffffffffffffffffffffffffffffffbddddddbbcccccccccccccccccbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbcccccccccdddcbddddddddddbbbbbcc
+fffffffffffffffffffffffffffffffffffffbddddddddbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbcccbdddddbbbcbcccccc
+fffffffffffffffffffbcffffffffffffffffcbdddddddddbcbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbcbbbccbccccccc
+fffffffffffffffffffffffffffffffffffffcbdddbdddddbbccccccccccccccccbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbcbccccccccccc
+ffffffffffffffffffffffffffffffffffcffcbddddddddddbbbbcccccccccccccbbcbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ffffffffffffffffffffffffffffffffffffccbdddddddddddbbbbcccccccbbcccccbbcccbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ffffffffffffffffffffffffffffffffdffdffcdddddddddbdddddbbccccbdbbbcbbddddddbcbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cfffffffffffffffffffffffffffffffffffffcbdddddddddddcdddddbbbbbbddddddddddddddbbbbbbcccbccccccccccccccccccccccccccccccccccccccccbbccccccccccccccccccccccccccccccc
+fffffffffffffffffffffffffffffffffffffffcdddddddddccddddddddddddddddddddddbdddddbddddbbbbdbccccccccccccccccccccccccccccccbccccbcddbbccccccccccccccccccccccccccccc
+fffffffffffffffffffcffffffffffffffffffffcbdddddddddddddddddddddddddddddddbddccdbdddddbbddddbbbcccccccccccccccccccccbbccbbbbbcbbddcbbbccccccccccccccccccccccccccc
+ffffffffffffffffffffffffffffffffffffffffdfbcddddddddddddddddddddddddddddddddbccdbcddbddddddddddcbccccccccccccccccccbdbbbbddbbbbddddddbcccccccccccccccccccccccccc
+ffffffffcffffffffffffffbcfffffffffffffffffcfcddddddddddddddddddddddddddddddddddddddbdddddddddddbdccccccccccccbbbbddbbbddddddbdddddddddcbccccccccbccccccccccccccc
+ffffffffcbcffffffffffffbffffffffffffffffffbffdcdddddddddddddddddddddddddddddddddddddddddddbdddddddcbbbcccccbbbdddddcbcbddddddddddddddbccccfccccccccccccccccccccc
+fffffffffffffffffffffccdfffffffffbfffffcffdfffcbdddddddddddddddddddddddddddddddddddddddddddddddddddddddbcbdcddddddbdbdddddddddddddddbccffffccfcccccccccccccccccc
+ffffffffffffffffffffffddfffffffffffffffddffffffcbdddddddddddddddddddddddddddddddddddddddddddddddddddddddbddbdbdddddcccdddddddddddddccffffcccffcffccccccccccccccc
+ffffffffffffffbffffffffffffffcfffffffffdfffffffffcbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddbddddbccbddddddddddddfcfffffdcffffffcffffccfccccccc
+fffffffffffffffffddfffffffffffffcffffffffffffffffdfffbdbbbdbbbcbccbbccbdddddddddddddddddddddddddddddddddddddddddddddcdbddddddddddccfcfffffffffffffffffffffcccfcc
+fffffffffffffffffbdffffffffffffffcfffccffffffffffcffcfffcbcfffffcfbccccfddbdddddddddddddddddddddddddddddddddddddddbdbccdddddddddcfcbffffffffffffffffffffffcccffc
+ffffffffffffffffffccfffffffffffffffffffcffffdfffffffffffbcffffffffffffffffccbbddddddddddddddddddddddddddddddbdbcbbbdcbcbdddddbbcbfffffffffffffffffffffffffffffcf
+fffffffffffffffffffffffffffffffffffffdfdcffffffffffffbdcfffffffffffffffffffcbbbddddddddddddddddddddddddddddbccfccbcfcbcfffcdcfffcfffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffcffffcfffffffffffffffffffffccdbddddddddddddddddddddddddccffffcfdffdffffffcffffffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffccfffffffcffffffffffffffffffffffffffffffffffffffffffccccdddddddddddddbcbcbcccffffffbfcbfffffbfbfffffdffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffdfcdddbbbdbffccccffcffddfffffcdfdffffffffffffffccffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcfffffffffffffffffbfcfddffffffffffffffffffffffffffffffffcfffffffffffffffffff
+fffffcffcffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffffffffffbcffffbffffffffffffffffddfffcdfffffcffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffdbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffcffffffffffffffffffdffffffffffbfffffffcfffffffffdffffffffffffffffffffff
+fffffffffffffffffcddcfffdffffbffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffccffffffffffdddffffffffffffffffffffffffffffffffffffffffffffffffffffcfffffffffffffffcffffcfbffffffffffffffffffffffbffffffbfffffffffffffffffffffffffffffffff
+`</field><data>{"commentRefs":[],"fieldData":{"img":"fslTJ1%lzNXfU`9_:3m:"}}</data></shadow></value></block><block type="keyonevent" id="/w|I)k`S|f(Iot;v58W~" disabled="true" x="651" y="1130"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_while" id="a+-_D$,p$*,sKRb@N4H)" disabled="true"><value name="COND"><shadow type="logic_boolean" id="_a5eV?=-4;7+T-6P]XWB" disabled="true"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="device_pause" id="q4]E-x#LS:w8[@XBA9O:" disabled="true"><value name="pause"><shadow type="timePicker" id="FhAUQ+6W1}QR)1)BR=fS" disabled="true"><field name="ms">100</field></shadow></value></block></statement></block></statement></block><block type="spritesoverlap" id="Ov+!OVxnixg]5I9q,@;h" x="1300" y="1100"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="+:NsBGK$TOa.}Ke+mp_i"><mutation typename="Sprite"></mutation><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id=")yMV[UNe5%{fk+B!n3It"><field name="MEMBER">Projectile</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="=O5kUCtso2OdN)kD}XJG"><mutation typename="Sprite"></mutation><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="]9p!2ce=y@h[J0-|~)jd"><field name="MEMBER">Enemy</field></shadow></value><statement name="HANDLER"><block type="spritedestroy" id="Z$G_h[V%}9X|FU~KfUjt"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><field name="effect">effects.coolRadial</field><value name="sprite"><block type="variables_get" id=",9E.Pka[A)mRJan.nVB9"><field name="VAR" id="nM^gt9Y)Mu0Ikv|kz^90">ENEMY 1</field></block></value><value name="duration"><shadow type="timePicker" id=":7l[dPn^wcRe@gulnpr@"><field name="ms">500</field></shadow></value><next><block type="hudChangeLifeBy" id="AuZoziZkiU6x^6@n]QoQ"><value name="value"><shadow type="math_number" id="Ynj^#5TCZK.u/0%|W5[f"><field name="NUM">-1</field></shadow></value></block></next></block></statement></block><block type="gamesetbackgroundimage" id="B_#A+ZGHw$W=s726+uk8" disabled="true" x="-400" y="1220"><value name="img"><shadow type="background_image_picker" id="E[;}zF+C,cl/d92SmZ*/" disabled="true"><field name="img">img`
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+22cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+222222222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+22122222222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2212222222222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2122222222222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+122222211222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+1222222122cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+1222221122cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+122221122ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+12221122cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+1222122ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+222112cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+222222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+22222ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+2222cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc5555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc55555555555555cccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+5555cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+4444444444444444444444cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+4444444444444444444444cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+4444444444444444444444cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+4444444444444444444444cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+44444444444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+24444444444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+24444444444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+24444444444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+42444444444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+52444424444444444444444ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+524422224444444444444442cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+524225542444444444444442cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+52255555244444444444442ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+55555555524444442224425ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+55555555552222225442425ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+55555555555555555545225ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555ccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555ccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc555555555555555ccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+55555555555555555555555ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfffffffffffffffffffffffffffffff
+`</field><data>{"commentRefs":[],"fieldData":{"img":"E[;}zF+C,cl/d92SmZ*/"}}</data></shadow></value></block></xml>
