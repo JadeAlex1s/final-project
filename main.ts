@@ -171,7 +171,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.WALL, function (sprite, othe
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Player)
+        `, SpriteKind.Projectile)
     mySprite5 = sprites.create(img`
         ...9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
         ...............................................................................................................................................................9
@@ -297,9 +297,6 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.WALL, function (sprite, othe
     THROW_ROCK.setStayInScreen(true)
     info.changeLifeBy(-1)
     pause(2000)
-})
-sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
-	
 })
 function INTRO_AVATAR () {
     scene.setBackgroundImage(img`
@@ -576,7 +573,7 @@ let _4: Sprite = null
 let _3: Sprite = null
 let _2: Sprite = null
 let _1: Sprite = null
-game.showLongText("Hello and welcome to BubblePop", DialogLayout.Bottom)
+game.showLongText("Hello and welcome to Spoopsly", DialogLayout.Bottom)
 INTRO_AVATAR()
 game.showLongText("Pick an Avatar", DialogLayout.Top)
 RESPONSE1 = game.askForNumber("Pick a number 1-4", 1)
