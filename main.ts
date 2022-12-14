@@ -518,6 +518,8 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.WALL, function (sprite, othe
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, SpriteKind.Projectile)
+    THROW_ROCK.controlWithArrowKeys()
+    THROW_ROCK.setTrace()
     WALLLLL = sprites.create(img`
         ...9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
         ...............................................................................................................................................................9
@@ -646,6 +648,26 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.WALL, function (sprite, othe
 })
 sprites.onDestroyed(SpriteKind.Enemy, function (sprite) {
     THROW_ROCK.destroy(effects.halo, 500)
+    THROW_ROCK = darts.create(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        f f f f f f f f f f f f f f . . 
+        f 8 8 8 8 8 8 8 8 f 4 4 4 f f . 
+        f 8 8 8 8 8 8 8 8 f 4 1 f 4 f f 
+        f 8 8 8 8 8 8 8 8 f f 4 4 4 4 f 
+        f 8 8 8 8 8 8 8 8 f 4 f f f 4 f 
+        f 8 8 8 8 8 8 8 8 f 4 4 4 4 f f 
+        f f f f f f f f f f f f f f f . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, SpriteKind.Projectile)
+    THROW_ROCK.controlWithArrowKeys()
+    THROW_ROCK.setTrace()
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     if (true) {
@@ -945,7 +967,7 @@ let _4: Sprite = null
 let _3: Sprite = null
 let _2: Sprite = null
 let _1: Sprite = null
-game.showLongText("Hello and welcome to Spoopsly", DialogLayout.Bottom)
+game.showLongText("Hello and welcome to SlimeDart", DialogLayout.Bottom)
 INTRO_AVATAR()
 game.showLongText("Pick an Avatar", DialogLayout.Top)
 RESPONSE1 = game.askForNumber("Pick a number 1-4", 1)
@@ -1215,6 +1237,8 @@ THROW_ROCK = darts.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Projectile, 10, 110)
+THROW_ROCK.controlWithArrowKeys()
+THROW_ROCK.setTrace()
 if (true) {
     ENEMY_ENCOUNTER()
     ENEMY_ENCOUNTER2()
