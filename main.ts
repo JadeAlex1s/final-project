@@ -194,6 +194,7 @@ function LEVEL2_ENCOUNTER () {
         BLUE3.setPosition(102, 97)
     }
     if (true) {
+        let mySprite: Sprite = null
         PURPLE_TEAMMATE = sprites.create(img`
             ....................................
             ....................................
@@ -233,6 +234,7 @@ function LEVEL2_ENCOUNTER () {
             ....................................
             `, SpriteKind.Teammate)
         PURPLE_TEAMMATE.setPosition(75, 66)
+        controller.moveSprite(mySprite)
     }
     return 0
 }
